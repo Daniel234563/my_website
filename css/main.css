@@ -1,0 +1,174 @@
+body {
+    background-color: #112D32 !important;
+    -webkit-text-fill-color: white;
+    padding-top: 5%;
+}
+
+
+
+.footer {
+    text-align: center;
+    margin-top: 8cm;
+}
+
+.topnav {
+    background-color: #254E58;
+    overflow: hidden;
+    position: fixed; 
+    position: top;
+    top: 0; 
+    left: 0;
+    z-index: 9999; 
+    width: 100%;
+    font-style: oblique;
+    font-family: lucida sans;
+    border-radius: 2mm;
+    border-width: 1.2mm;
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.tekst {
+    font-size: larger;
+    font-size: 16px;
+    color: silver;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
+    margin-top: 16cm;
+}
+
+/* Her designer jeg tekst*/
+
+.skoler {
+    color: white;
+    -webkit-text-stroke-color: silver;
+    -webkit-text-stroke-width: 0.6px;
+    font-size: 6px;
+}
+
+.scroll {
+    opacity: 0;
+}
+
+.info {
+    font-size: larger;
+    font-size: 16px;
+        color: silver;
+        -webkit-text-stroke-width: 0.2px;
+        -webkit-text-stroke-color: black;
+        margin-top: 6cm;
+}
+
+
+
+
+/* Her fikser jeg posisjonen og formen på profilbildet*/
+
+.circle img {
+    border-radius: 50%;
+    border-width: 1.2mm;
+    border-color: black;
+    border-style: solid;
+    display: block;
+    margin-left: 1.4cm;
+    margin-top: 1cm;
+    
+}
+
+.navn {
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+/* Her designer jeg border*/
+
+.tab {
+    border-color: black;
+    border-width: 1mm;
+    border-style: dashed;
+}
+
+.fa {
+    padding: 20px;
+        font-size: 30px;
+        width: auto;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    width: 55px;
+}
+
+.fa-instagram {
+        color: #fff;
+        background: #d6249f;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+}
+
+.fa-youtube {
+    background-color: red;
+    color: white;
+}
+
+.glemmen {
+    width: 500px;
+    height: auto;
+    text-align: right;
+    margin-top: -8cm;
+    margin-left: 18cm;
+    border: black;
+    border-style: double;
+    border-width: 2mm;
+    
+}
+
+.scroll_2 {
+    opacity: 0;
+}
+
+.fa-github {
+    background-color: black;
+        color: white;
+}
+
+.fa-envelope {
+    background-color: #00a2ed;
+        color: white;
+}
+
+.carousel {
+    width: 600px;
+    height: auto;
+    margin-left: 15cm;
+    margin-top: -11cm;
+    border-width: 2mm;
+    border-style: double;
+    border-color: black;
+    
+}
+
+.clicked {
+    -webkit-text-fill-color: black;
+}
